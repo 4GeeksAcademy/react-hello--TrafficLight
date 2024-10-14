@@ -1,13 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import Home from "src\js\component\home.jsx"; 
+
 import "../styles/index.css";
- 
+import TrafficLights from "./component/TrafficLights.jsx";
 
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
-  <div>
-    <Home />
-  </div>
-);
+ReactDOM.createRoot(document.getElementById('app')).render(<TrafficLights/>) ;
